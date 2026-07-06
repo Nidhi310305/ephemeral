@@ -4,6 +4,7 @@
   justify-content: space-between;
   padding: 16px 40px;
   background-color: #1a0a0a;
+  border-bottom: 1px solid #d4af37;
 }
 
 .navbar-logo {
