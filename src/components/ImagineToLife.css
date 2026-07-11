@@ -1,0 +1,50 @@
+.imagine {
+  background-color: #1a0a0a;
+  padding: 80px 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imagine-heading {
+  color: #d4af37;
+  font-size: 36px;
+  letter-spacing: 4px;
+  margin-bottom: 12px;
+}
+
+.imagine-subtext {
+  color: #a89060;
+  font-style: italic;
+  margin-bottom: 40px;
+}
+
+.imagine-input {
+  width: 60%;
+  padding: 16px 20px;
+  background-color: #2a1a1a;
+  border: 1px solid #d4af37;
+  color: #f5f0eb;
+  font-size: 16px;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.imagine-btn {
+  background-color: #d4af37;
+  color: #1a0a0a;
+  border: none;
+  padding: 14px 36px;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+
+.imagine-image {
+  width: 60%;
+  max-width: 500px;
+  border: 2px solid #d4af37;
+}
