@@ -48,3 +48,15 @@
   max-width: 500px;
   border: 2px solid #d4af37;
 }
+.imagine-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.imagine-error {
+  color: #ff6b6b;
+  margin-top: 16px;
+}
