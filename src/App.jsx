@@ -1,21 +1,28 @@
-import Navbar from "./components/Navbar";
-import HeroSection from "./components/HeroSection";
-import FeatureSection from "./components/FeatureSection";
-import ImagineToLife from "./components/ImagineToLife";
-import Footer from "./components/Footer";
-import MyCollection from "./components/MyCollection";
+import { Routes, Route } from 'react-router-dom'
+import Navbar from './components/Navbar'
+import HeroSection from './components/HeroSection'
+import FeaturesSection from './components/FeaturesSection'
+import Footer from './components/Footer'
+import ImagineToLife from './components/ImagineToLife'
+import MyCollection from './components/MyCollection'
 
- function App() {
+function App() {
   return (
     <div>
       <Navbar />
-      <HeroSection />
-      <FeatureSection />
-      <ImagineToLife />
-      <MyCollection />
+      <Routes>
+        <Route path="/" element={
+          <>
+            <HeroSection />
+            <FeaturesSection />
+          </>
+        } />
+        <Route path="/imagine" element={<ImagineToLife />} />
+        <Route path="/collection" element={<MyCollection />} />
+      </Routes>
       <Footer />
-      
     </div>
-  );
+  )
 }
-export default App;
+
+export default App
