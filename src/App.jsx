@@ -3,6 +3,7 @@ import HeroSection from "./components/HeroSection";
 import FeatureSection from "./components/FeatureSection";
 import ImagineToLife from "./components/ImagineToLife";
 import Footer from "./components/Footer";
+import MyCollection from "./components/MyCollection";
 
  function App() {
   return (
@@ -11,6 +12,7 @@ import Footer from "./components/Footer";
       <HeroSection />
       <FeatureSection />
       <ImagineToLife />
+      <MyCollection />
       <Footer />
       
     </div>

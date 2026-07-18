@@ -69,6 +69,14 @@ function ImagineToLife() {
     setLoading(false)
   }
 
+  const saveDesign = () => {
+  const saved = localStorage.getItem("ephemeral-collection")
+  const collection = saved ? JSON.parse(saved) : []
+  collection.push({ prompt, imageUrl: imageUrls[0] })
+  localStorage.setItem("ephemeral-collection", JSON.stringify(collection))
+  alert("Design saved! Scroll down to My Collection.")
+  window.location.reload()
+}
   return (
     <div className="imagine">
       <h2 className="imagine-heading">Imagine to Life</h2>
@@ -89,6 +97,11 @@ function ImagineToLife() {
           <img key={index} className="imagine-image" src={url} alt={`Design ${index + 1}`} />
         ))}
       </div>
+      {imageUrls.length > 0 && (
+        <button className="imagine-save-btn" onClick={saveDesign}>
+        Save to Collection
+       </button>
+       )}
     </div>
   )
 }
