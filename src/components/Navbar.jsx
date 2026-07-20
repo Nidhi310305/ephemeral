@@ -9,6 +9,8 @@ function Navbar() {
         <li><Link to="/">Home</Link></li>
         <li><Link to="/imagine">Create</Link></li>
         <li><Link to="/collection">Collection</Link></li>
+        <li><Link to="/ai-tailor">AI Tailor</Link></li>
+        <li><Link to="/fabric-guide">Fabric Guide</Link></li>
       </ul>
       <Link to="/imagine" className="navbar-btn">Start Creating</Link>
     </nav>
@@ -16,4 +18,7 @@ function Navbar() {
 }
 
 export default Navbar
+
+
+
 

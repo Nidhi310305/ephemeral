@@ -5,7 +5,8 @@ import FeaturesSection from './components/FeaturesSection'
 import Footer from './components/Footer'
 import ImagineToLife from './components/ImagineToLife'
 import MyCollection from './components/MyCollection'
-
+import AITailor from './components/AITailor'
+import FabricGuide from './components/FabricGuide'
 function App() {
   return (
     <div>
@@ -19,10 +20,20 @@ function App() {
         } />
         <Route path="/imagine" element={<ImagineToLife />} />
         <Route path="/collection" element={<MyCollection />} />
+        <Route path="/ai-tailor" element={<AITailor />} />
+        <Route path="/fabric-guide" element={<FabricGuide />} />
       </Routes>
+
       <Footer />
     </div>
   )
 }
 
 export default App
+
+
+
+
+
+
+
