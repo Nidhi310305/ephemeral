@@ -1,0 +1,48 @@
+.tryon {
+  background-color: #1a0a0a;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.tryon-content {
+  text-align: center;
+  max-width: 500px;
+}
+
+.tryon-icon {
+  font-size: 64px;
+  display: block;
+  margin-bottom: 24px;
+}
+
+.tryon-title {
+  color: #d4af37;
+  font-size: 36px;
+  letter-spacing: 4px;
+  margin-bottom: 12px;
+}
+
+.tryon-subtitle {
+  color: #a89060;
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 24px;
+}
+
+.tryon-description {
+  color: #f5f0eb;
+  line-height: 1.8;
+  margin-bottom: 32px;
+}
+
+.tryon-badge {
+  display: inline-block;
+  border: 1px solid #d4af37;
+  color: #d4af37;
+  padding: 8px 24px;
+  letter-spacing: 2px;
+  font-size: 13px;
+}

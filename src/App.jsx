@@ -7,6 +7,7 @@ import ImagineToLife from './components/ImagineToLife'
 import MyCollection from './components/MyCollection'
 import AITailor from './components/AITailor'
 import FabricGuide from './components/FabricGuide'
+import TryItOn from './components/TryItOn'
 function App() {
   return (
     <div>
@@ -22,6 +23,8 @@ function App() {
         <Route path="/collection" element={<MyCollection />} />
         <Route path="/ai-tailor" element={<AITailor />} />
         <Route path="/fabric-guide" element={<FabricGuide />} />
+        <Route path="/try-on" element={<TryItOn />} />
+
       </Routes>
 
       <Footer />
@@ -30,6 +33,10 @@ function App() {
 }
 
 export default App
+
+
+
+
 
 
 
